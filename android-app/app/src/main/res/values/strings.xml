@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Namma Pustaka</string>
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_scan">Scan</string>
+    <string name="nav_dashboard">Dashboard</string>
+    <string name="nav_leaderboard">Leaderboard</string>
+    <string name="add_book">Add Book</string>
+    <string name="camera_entry_hint">Use camera OCR to prefill title and author</string>
+    <string name="book_not_available">Issued</string>
+    <string name="book_available">Available</string>
+    <string name="status_overdue">Overdue</string>
+    <string name="status_issued">Issued</string>
+    <string name="status_returned">Returned</string>
+    <string name="borrow_book">Borrow Book</string>
+    <string name="mark_returned">Mark Returned</string>
+    <string name="teacher_dashboard">Teacher Dashboard</string>
+    <string name="reading_leaderboard">Reading Leaderboard</string>
+    <string name="scan_placeholder">QR scanner wiring goes here</string>
+    <string name="empty_catalog">No books in the catalog yet</string>
+    <string name="search_books">Search by title or author</string>
+    <string name="summary_label">Kannada Summary</string>
+    <string name="reviews_label">Reviews</string>
+    <string name="pages_label">%1$d pages</string>
+    <string name="due_date_label">Due %1$s</string>
+    <string name="camera_ready">Point the camera at a book QR code to issue it.</string>
+    <string name="camera_permission_needed">Camera permission is needed for scanning and OCR.</string>
+    <string name="scan_success">Book issued successfully.</string>
+    <string name="scan_failed">No matching book found for this QR code yet.</string>
+    <string name="capture_cover">Capture cover with camera OCR</string>
+    <string name="review_hint">Write a one-line review</string>
+    <string name="submit_review">Save Review</string>
+    <string name="review_saved">Review saved.</string>
+    <string name="summary_fallback">Kannada summary is unavailable right now.</string>
+    <string name="scanner_status_label">Scanner status</string>
+</resources>

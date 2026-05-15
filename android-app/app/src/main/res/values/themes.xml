@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Theme.NammaPustaka" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/amber_500</item>
+        <item name="colorOnPrimary">@color/forest_900</item>
+        <item name="colorSecondary">@color/success_500</item>
+        <item name="android:statusBarColor">@color/forest_900</item>
+        <item name="android:navigationBarColor">@color/forest_900</item>
+        <item name="android:windowBackground">@color/forest_900</item>
+        <item name="colorSurface">@color/forest_800</item>
+        <item name="colorOnSurface">@color/sand_100</item>
+        <item name="android:textColor">@color/sand_100</item>
+        <item name="materialCardViewStyle">@style/Widget.NammaPustaka.Card</item>
+    </style>
+
+    <style name="Widget.NammaPustaka.Card" parent="Widget.Material3.CardView.Elevated">
+        <item name="cardBackgroundColor">@color/surface_card</item>
+        <item name="strokeColor">@color/surface_soft</item>
+        <item name="strokeWidth">1dp</item>
+    </style>
+</resources>

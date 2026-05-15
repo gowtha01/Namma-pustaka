@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="forest_900">#10231F</color>
+    <color name="forest_800">#163129</color>
+    <color name="forest_700">#1E4036</color>
+    <color name="amber_500">#DE9F49</color>
+    <color name="amber_300">#F4C06A</color>
+    <color name="sand_100">#F8F4E8</color>
+    <color name="sand_300">#D7CDBA</color>
+    <color name="success_500">#72C58C</color>
+    <color name="danger_500">#D86767</color>
+    <color name="surface_card">#1B3029</color>
+    <color name="surface_soft">#244037</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+</resources>

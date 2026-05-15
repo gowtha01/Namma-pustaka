@@ -1,0 +1,93 @@
+:root {
+  font-family: "Manrope", sans-serif;
+  color: #f8f4e8;
+  background:
+    radial-gradient(circle at top, rgba(222, 159, 73, 0.18), transparent 30%),
+    radial-gradient(circle at bottom right, rgba(65, 140, 91, 0.18), transparent 25%),
+    linear-gradient(180deg, #0e1712 0%, #17261d 45%, #10231f 100%);
+  --bg: #10231f;
+  --surface: rgba(18, 32, 25, 0.76);
+  --surface-strong: rgba(20, 34, 27, 0.92);
+  --surface-soft: rgba(255, 248, 234, 0.07);
+  --text: #f8f4e8;
+  --muted: #ccbfa9;
+  --line: rgba(255, 240, 210, 0.12);
+  --accent: #de9f49;
+  --accent-strong: #f4c06a;
+  --success: #72c58c;
+  --danger: #ef7d7a;
+  --shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+}
+
+body {
+  margin: 0;
+  color: var(--text);
+  background: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.page-shell {
+  width: min(1180px, calc(100% - 32px));
+  margin: 0 auto;
+  padding: 28px 0 64px;
+}
+
+.glass-card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  backdrop-filter: blur(22px);
+  box-shadow: var(--shadow);
+}
+
+.kannada-text {
+  font-family: "Noto Sans Kannada", sans-serif;
+  line-height: 1.85;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
